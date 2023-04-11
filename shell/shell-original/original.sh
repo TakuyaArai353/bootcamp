@@ -23,18 +23,18 @@ file_path="shell-original/$file_path"
 # コマンドに応じて処理を実行
 case "$command" in
   "create")
-      echo "Creating $file_path"
-      touch $file_path
-      ;;
+    echo "Creating $file_path"
+    touch $file_path
+    ;;
   "delete")
-      echo "Deleting $file_path"
-      rm $file_path
-      ;;
+    echo "Deleting $file_path"
+    rm $file_path
+    ;;
   *)
-      echo "Invalid command: $command"
-      echo "usage: $0 [command] [file_path]"
-      exit 1
-      ;;
+    echo "Invalid command: $command"
+    echo "usage: $0 [command] [file_path]"
+    exit 1
+    ;;
 esac
 
 exit 0
