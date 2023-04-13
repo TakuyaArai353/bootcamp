@@ -6,7 +6,7 @@ end
 result = add(1, 2)
 
 # 真偽値を返すメソッド
-def is_even(number)
+def even?(number)
   number % 2 == 0
 end
 
