@@ -4,11 +4,11 @@ class User
     @age = age
   end
 
-  def say_hello
+  def hello
     puts "Hello, #{@name}!"
   end
 
-  def get_age
+  def age
     return @age
   end
 end
@@ -18,5 +18,5 @@ end
 user = User.new("Dan", 21)
 
 # メソッドを呼び出す
-user.say_hello
-puts user.get_age
+user.hello
+puts user.age
