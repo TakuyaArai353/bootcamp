@@ -43,8 +43,4 @@ class Clothes
   def initialize(clean = false)
     @clean = clean
   end
-
-  def wash
-    @clean = true
-  end
 end
