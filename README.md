@@ -1,1 +1,1 @@
-# GA bootcamp
+# bootcamp
